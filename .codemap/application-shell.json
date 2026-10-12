@@ -1,0 +1,997 @@
+{
+  "bottomPanel": {
+    "config": {
+      "main": {
+        "type": "tab-area",
+        "widgets": [
+          {
+            "constructionOptions": {
+              "factoryId": "problems"
+            },
+            "innerWidgetState": {}
+          }
+        ],
+        "currentIndex": 0
+      }
+    },
+    "expanded": false
+  },
+  "leftPanel": {
+    "type": "sidepanel",
+    "items": [
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "explorer-view-container"
+          },
+          "innerWidgetState": {
+            "parts": [
+              {
+                "widget": {
+                  "constructionOptions": {
+                    "factoryId": "files"
+                  },
+                  "innerWidgetState": {
+                    "decorations": {
+                      "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell": [
+                        {
+                          "tailDecorations": [
+                            {
+                              "data": "E",
+                              "fontData": {
+                                "color": "rgba(255, 148, 0, .5)"
+                              },
+                              "tooltip": "ChildEdited"
+                            }
+                          ],
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, .5)"
+                          }
+                        }
+                      ],
+                      "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src": [
+                        {
+                          "tailDecorations": [
+                            {
+                              "data": "E",
+                              "fontData": {
+                                "color": "rgba(255, 148, 0, .5)"
+                              },
+                              "tooltip": "ChildEdited"
+                            }
+                          ],
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, .5)"
+                          }
+                        }
+                      ],
+                      "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AdcDetect.c": [
+                        {
+                          "tailDecorations": [
+                            {
+                              "data": "E",
+                              "fontData": {
+                                "color": "rgba(255, 148, 0, 1)"
+                              },
+                              "tooltip": "Edited"
+                            }
+                          ],
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, 1)"
+                          }
+                        }
+                      ],
+                      "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VoiceRingPlay.c": [
+                        {
+                          "tailDecorations": [
+                            {
+                              "data": "E",
+                              "fontData": {
+                                "color": "rgba(255, 148, 0, 1)"
+                              },
+                              "tooltip": "Edited"
+                            }
+                          ],
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, 1)"
+                          }
+                        }
+                      ],
+                      "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VoiceRingPlay.h": [
+                        {
+                          "tailDecorations": [
+                            {
+                              "data": "E",
+                              "fontData": {
+                                "color": "rgba(255, 148, 0, 1)"
+                              },
+                              "tooltip": "Edited"
+                            }
+                          ],
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, 1)"
+                          }
+                        }
+                      ]
+                    },
+                    "root": {
+                      "id": "WorkspaceNodeId",
+                      "name": "WorkspaceNode",
+                      "children": [
+                        {
+                          "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell",
+                          "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell",
+                          "expanded": true,
+                          "selected": false,
+                          "children": [
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.codemap",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.codemap",
+                              "expanded": false,
+                              "selected": true,
+                              "children": [],
+                              "focus": true,
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.vscode",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.vscode",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.vscode/c_cpp_properties.json",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.vscode/c_cpp_properties.json",
+                                  "selected": false,
+                                  "focus": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.vscode/settings.json",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.vscode/settings.json",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                }
+                              ],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/AV100-82228-EPC-20240913-升级包",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/AV100-82228-EPC-20240913-%E5%8D%87%E7%BA%A7%E5%8C%85",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/AV100-82228-EPC-20240913-升级包/AV100-82228-EPC-20240913-USB烧录工具.zip",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/AV100-82228-EPC-20240913-%E5%8D%87%E7%BA%A7%E5%8C%85/AV100-82228-EPC-20240913-USB%E7%83%A7%E5%BD%95%E5%B7%A5%E5%85%B7.zip",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/AV100-82228-EPC-20240913-升级包/cbin.update",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/AV100-82228-EPC-20240913-%E5%8D%87%E7%BA%A7%E5%8C%85/cbin.update",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                }
+                              ],
+                              "focus": false,
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/build",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/build",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/cmake",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/cmake",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/common",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/common",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/daemon",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/daemon",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/doc",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/doc",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/include",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/include",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/lib",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/lib",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/share",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/share",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src",
+                              "expanded": true,
+                              "selected": false,
+                              "children": [
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AdcDetect.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AdcDetect.c",
+                                  "selected": false,
+                                  "focus": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AdcDetect.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AdcDetect.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioParam.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioParam.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioParam.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioParam.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioPlay.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioPlay.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioPlay.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioPlay.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioTransfer.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioTransfer.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioTransfer.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AudioTransfer.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/DeviceUpgrade.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/DeviceUpgrade.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/DeviceUpgrade.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/DeviceUpgrade.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/GeneralInterface.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/GeneralInterface.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/GeneralInterface.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/GeneralInterface.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/GpioKeyPad.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/GpioKeyPad.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/GpioKeyPad.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/GpioKeyPad.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/InfraredDetect.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/InfraredDetect.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/InfraredDetect.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/InfraredDetect.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/LightControl.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/LightControl.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/LightControl.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/LightControl.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/main.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/main.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetManageCom.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetManageCom.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetManageCom.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetManageCom.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetMsgComm.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetMsgComm.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetMsgComm.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetMsgComm.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetworkCommon.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetworkCommon.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetworkCommon.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NetworkCommon.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NumericKeypad.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NumericKeypad.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NumericKeypad.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/NumericKeypad.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/PwmIdCard.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/PwmIdCard.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/PwmIdCard.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/PwmIdCard.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/RC522Card.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/RC522Card.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/RC522Card.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/RC522Card.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SC92F836Keypad.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SC92F836Keypad.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SC92F836Keypad.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SC92F836Keypad.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SecurityMode.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SecurityMode.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SecurityMode.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SecurityMode.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/sed2IZc2n",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/sed2IZc2n",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/sedY2OX0X",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/sedY2OX0X",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SpeakAmp.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SpeakAmp.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SpeakAmp.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/SpeakAmp.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UartIcCard.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UartIcCard.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UartIcCard.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UartIcCard.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/Unlock.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/Unlock.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/Unlock.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/Unlock.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserCard.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserCard.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserCard.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserCard.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserConfig.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserConfig.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserConfig.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserConfig.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserNetManage.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserNetManage.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserNetManage.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/UserNetManage.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VideoTransfer.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VideoTransfer.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VideoTransfer.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VideoTransfer.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VoiceRingPlay.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VoiceRingPlay.c",
+                                  "selected": false,
+                                  "focus": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VoiceRingPlay.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VoiceRingPlay.h",
+                                  "selected": false,
+                                  "focus": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/XW12AKeypad.c",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/XW12AKeypad.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/XW12AKeypad.h",
+                                  "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/XW12AKeypad.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                }
+                              ],
+                              "focus": false,
+                              "stat": {
+                                "type": 2,
+                                "ctime": 1729664563906,
+                                "mtime": 1729664563906,
+                                "size": 0
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/test",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/test",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/upgrade",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/upgrade",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/voice",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/voice",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.gitignore",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.gitignore",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/AV100-82225-EPC-07041455",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/AV100-82225-EPC-07041455",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/AV100-82228-EPC-10231422",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/AV100-82228-EPC-10231422",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/git.cmd.sh",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/git.cmd.sh",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/ipc_camera",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/ipc_camera",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/isp_gc2083_mipi_2lane_av100-2024052301.conf",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/isp_gc2083_mipi_2lane_av100-2024052301.conf",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/isp_gc2083_mipi_2lane_av100-zg1.conf",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/isp_gc2083_mipi_2lane_av100-zg1.conf",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/isp_gc2083_mipi_2lane_av100.conf",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/isp_gc2083_mipi_2lane_av100.conf",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/make.sh",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/make.sh",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/net_indoor",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/net_indoor",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/project.bin",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/project.bin",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/README.md",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/README.md",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/SAT_CAMERA-07091120",
+                              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/SAT_CAMERA-07091120",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            }
+                          ],
+                          "visible": false,
+                          "focus": false,
+                          "stat": {
+                            "type": 2,
+                            "ctime": 1729669346168,
+                            "mtime": 1729669346168,
+                            "size": 0
+                          }
+                        }
+                      ],
+                      "visible": false,
+                      "selected": false
+                    },
+                    "model": {
+                      "selection": {
+                        "selectionStack": [
+                          {
+                            "focus": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.codemap",
+                            "node": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell:/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/.codemap",
+                            "type": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "partId": "{\"factoryId\":\"files\"}",
+                "collapsed": false,
+                "hidden": false,
+                "relativeSize": 1
+              },
+              {
+                "widget": {
+                  "constructionOptions": {
+                    "factoryId": "plugin-view",
+                    "options": {
+                      "id": "plugin-view:go.explorer",
+                      "viewId": "go.explorer"
+                    }
+                  },
+                  "innerWidgetState": {
+                    "label": "go",
+                    "widgets": []
+                  }
+                },
+                "partId": "{\"factoryId\":\"plugin-view\",\"options\":{\"id\":\"plugin-view:go.explorer\",\"viewId\":\"go.explorer\"}}",
+                "collapsed": true,
+                "hidden": true
+              },
+              {
+                "widget": {
+                  "constructionOptions": {
+                    "factoryId": "plugin-view",
+                    "options": {
+                      "id": "plugin-view:npm",
+                      "viewId": "npm"
+                    }
+                  },
+                  "innerWidgetState": {
+                    "label": "NPM Scripts",
+                    "widgets": []
+                  }
+                },
+                "partId": "{\"factoryId\":\"plugin-view\",\"options\":{\"id\":\"plugin-view:npm\",\"viewId\":\"npm\"}}",
+                "collapsed": true,
+                "hidden": true
+              }
+            ],
+            "title": {
+              "label": "资源树",
+              "iconClass": "codemap-files-icon",
+              "closeable": true
+            }
+          }
+        },
+        "rank": 100,
+        "expanded": true
+      },
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "search-in-workspace"
+          },
+          "innerWidgetState": {
+            "matchCaseState": {
+              "className": "match-case",
+              "enabled": true,
+              "title": "Match Case"
+            },
+            "wholeWordState": {
+              "className": "whole-word",
+              "enabled": true,
+              "title": "Match Whole Word"
+            },
+            "regExpState": {
+              "className": "use-regexp",
+              "enabled": false,
+              "title": "Use Regular Expression"
+            },
+            "includeIgnoredState": {
+              "className": "include-ignored fa fa-eye",
+              "enabled": false,
+              "title": "Include Ignored Files"
+            },
+            "showSearchDetails": false,
+            "searchInWorkspaceOptions": {
+              "matchCase": true,
+              "matchWholeWord": true,
+              "useRegExp": false,
+              "includeIgnored": false,
+              "include": [],
+              "exclude": [],
+              "maxResults": 2000
+            },
+            "searchTerm": "",
+            "replaceTerm": "",
+            "showReplaceField": false
+          }
+        },
+        "rank": 200,
+        "expanded": false
+      }
+    ],
+    "size": 150
+  },
+  "rightPanel": {
+    "type": "sidepanel",
+    "items": []
+  },
+  "activeWidgetId": "undefined:search-in-workspace"
+}

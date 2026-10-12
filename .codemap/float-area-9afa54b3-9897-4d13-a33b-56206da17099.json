@@ -1,0 +1,216 @@
+{
+  "type": "float-area",
+  "_widgets": [
+    [
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AdcDetect.c",
+              "floatAreaId": "9afa54b3-9897-4d13-a33b-56206da17099"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 49,
+                  "column": 15
+                },
+                "position": {
+                  "lineNumber": 49,
+                  "column": 15
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 36,
+                "column": 1
+              },
+              "firstPositionDeltaTop": -9
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 151,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": true
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      }
+    ],
+    [
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VoiceRingPlay.h",
+              "floatAreaId": "9afa54b3-9897-4d13-a33b-56206da17099"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 56,
+                  "column": 40
+                },
+                "position": {
+                  "lineNumber": 56,
+                  "column": 40
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 40,
+                "column": 1
+              },
+              "firstPositionDeltaTop": -10
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 62,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      }
+    ],
+    [
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///z%3A/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VoiceRingPlay.c",
+              "floatAreaId": "9afa54b3-9897-4d13-a33b-56206da17099"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 132,
+                  "column": 6
+                },
+                "position": {
+                  "lineNumber": 132,
+                  "column": 6
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 132,
+                "column": 1
+              },
+              "firstPositionDeltaTop": 0
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 186,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      }
+    ]
+  ],
+  "_widths": [
+    600,
+    600,
+    600
+  ],
+  "_modelData": {
+    "connections": [
+      {
+        "startWord": {
+          "uri": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AdcDetect.c",
+          "lineNumber": 27,
+          "startColumn": 9,
+          "endColumn": 23,
+          "word": "DEFINE_ADC_TAG",
+          "x": 79,
+          "y": 60,
+          "hide": true,
+          "height": 1,
+          "width": 1
+        },
+        "endWord": {
+          "uri": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/AdcDetect.c",
+          "lineNumber": 36,
+          "startColumn": 18,
+          "endColumn": 32,
+          "endLineNumber": 36,
+          "word": "",
+          "x": 210,
+          "y": 51,
+          "hide": true,
+          "height": 19,
+          "width": 108
+        },
+        "id": "c0246b12-897e-4146-98b6-3192a922f78d"
+      },
+      {
+        "startWord": {
+          "uri": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VoiceRingPlay.h",
+          "lineNumber": 56,
+          "startColumn": 38,
+          "endColumn": 52,
+          "word": "VoiceRingPlayL",
+          "x": 1020,
+          "y": 354,
+          "hide": false,
+          "height": 19,
+          "width": 108
+        },
+        "endWord": {
+          "uri": "/z:/two_wire_project/Bcom/Application/two-wire-outdoor/AV100/Doorbell/src/VoiceRingPlay.c",
+          "lineNumber": 132,
+          "startColumn": 6,
+          "endColumn": 20,
+          "endLineNumber": 132,
+          "word": "",
+          "x": 1429,
+          "y": 60,
+          "hide": false,
+          "height": 19,
+          "width": 108
+        },
+        "id": "a4e1fb2a-801a-4007-9763-fb73e037bb95"
+      }
+    ],
+    "annotations": [],
+    "highlights": []
+  }
+}

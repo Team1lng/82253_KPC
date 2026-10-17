@@ -10,12 +10,12 @@
 CC="$(pwd)/compilat_tool/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-gcc"
 CXX="$(pwd)/compilat_tool/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++"
 
-OPTION="AV100-82253-CF"
+OPTION="AV100-82253-KPC"   # 1户机：键盘+IC卡
 ENABLE_ITS=0
 ENABLE_ATS=0
-ENABLE_CARD=1
-ENABLE_KEYPAD=1
-ENABLE_FINGERPRINT=0    # 暂时屏蔽指纹，释放 ttySAK0 给串口调试日志（恢复指纹改回 1）
+ENABLE_CARD=1              # IC卡读卡器
+ENABLE_KEYPAD=1            # 数字键盘（SC92F836/XW12A）
+ENABLE_FINGERPRINT=0       # 无指纹模块
 # isp-gc2083-2024121107.conf
 # isp-gc2083-2024121107-reducelight.conf
 NIGHT_VERSION="isp-gc2083-2024121107.conf"

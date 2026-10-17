@@ -13,13 +13,13 @@
 #include <stdio.h>
 #include <fcntl.h>
 
-// #define LOCK_GPIO 34
-// #define GATE_GPIO 32
-// static char LockGpio[] = {0, LOCK_GPIO, GATE_GPIO};
+#define LOCK_GPIO 34  // 门锁继电器 DOOR_OPEN (原理图 SCH NW82253KPC-FHD-A-2V2-250326.pdf 验证)
+#define GATE_GPIO 32  // 闸锁继电器 GATE_OPEN (原理图 SCH NW82253KPC-FHD-A-2V2-250326.pdf 验证)
+static char LockGpio[] = {0, LOCK_GPIO, GATE_GPIO};
 static void GateColse(void *u)
 {
     printf("[%s]\n", __func__);
-    // GpioLevelSet(GATE_GPIO, GPIO_LEVEL_LOW);
+    GpioLevelSet(GATE_GPIO, GPIO_LEVEL_LOW);
     GateopenLightControl(0);
     if (!TimerEnablestatus(LockTimer))
     {
@@ -30,7 +30,7 @@ static void GateColse(void *u)
 static void LockColse(void *u)
 {
     printf("[%s]\n", __func__);
-    // GpioLevelSet(LOCK_GPIO, GPIO_LEVEL_LOW);
+    GpioLevelSet(LOCK_GPIO, GPIO_LEVEL_LOW);
     DooropenLightControl(0);
     if (!TimerEnablestatus(GateTimer))
     {
@@ -106,20 +106,22 @@ int Unlock(int time, LockType type)
     if (SetTimer(time * 1000, type == LOCK_TYPE ? LockTimer : GateTimer, type == LOCK_TYPE ? LockColse : GateColse, NULL))
     {
         // printf("================%d    ===================%d\n",TimerEnablestatus(type == LOCK_TYPE ? GateTimer : LockTimer),UserConfigGet()->UnlockVoiceEn);
-        if (!TimerEnablestatus(type == LOCK_TYPE ? GateTimer : LockTimer) /* && UserConfigGet()->UnlockVoiceEn */)  //hare
+        if (!TimerEnablestatus(type == LOCK_TYPE ? GateTimer : LockTimer) && UserConfigGet()->UnlockVoiceEn)  //hare
         {
-            VoiceRingPlay(26, VoiceDefVol); //30
+            /* 播报"开锁"人声，按当前语言选语音：UnlockEng + Language（语言枚举与语音枚举顺序一致） */
+            VoiceRingPlay(UnlockEng + UserConfigGet()->Language, VoiceDefVol);
         }
         printf("[%s] %ds\n", type == LOCK_TYPE ? "Unlock" : "Ungate", time);
-        // GpioLevelSet(LockGpio[type], GPIO_LEVEL_HIGH);
-        if (type == 1)
-        {
-            DooropenLightControl(1);
-        }
-        else if (type == 2)
-        {
-            GateopenLightControl(1);
-        }
+        GpioLevelSet(LockGpio[type], GPIO_LEVEL_HIGH);
+        // 注释掉74HC595灯控：bit6/7与键盘灯/通话灯冲突，GPIO继电器已足够
+        // if (type == 1)
+        // {
+        //     DooropenLightControl(1);
+        // }
+        // else if (type == 2)
+        // {
+        //     GateopenLightControl(1);
+        // }
         char Data[] = {0x7e, 0xa5, 0x97};
         WiegandDevWrite(Data, sizeof(Data));
         // KeyLightControl(!(TimerEnablestatus(MonitorTimer) || TimerEnablestatus(CommunicateTimer)));
@@ -129,17 +131,18 @@ int Unlock(int time, LockType type)
 }
 
 /**
- * @description: 锁引脚初始化
+ * @description: 锁引脚初始化 (GPIO32闸锁, GPIO34门锁)
  * @return {*}
  */
-// void LockGpioInit(void)
-// {
-//     for (int i = LOCK_TYPE; i < sizeof(LockGpio); i++)
-//     {
-//         if (GpioOpen(LockGpio[i], GPIO_DIR_LOW, false))
-//         {
-//         }
-//     }
-// }
+void LockGpioInit(void)
+{
+    for (int i = LOCK_TYPE; i < sizeof(LockGpio); i++)
+    {
+        if (GpioOpen(LockGpio[i], GPIO_DIR_LOW, false))
+        {
+            printf("[LockGpioInit] GPIO%d init success\n", LockGpio[i]);
+        }
+    }
+}
 
 

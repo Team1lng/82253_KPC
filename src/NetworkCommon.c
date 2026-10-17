@@ -86,8 +86,8 @@ static void UnlockEventFunc(NetworkMsgPacket Packet)
 static void CommunicateOuttime(void *us)
 {
     KeyLightControl(-1);
-    // TalkLightControl(0);   // hare
-    GpioLevelSet(TALKING_LIGHT_CONTROL_GPIO, GPIO_LEVEL_LOW); //hare
+    TalkLightControl(0);   // 通话灯走74HC595 bit7；GPIO34是门锁不能动
+    // GpioLevelSet(TALKING_LIGHT_CONTROL_GPIO, GPIO_LEVEL_LOW); //hare  // 屏蔽：GPIO34是门锁，不是通话灯
     InfraredLightControl(0);
 }
 
@@ -136,8 +136,8 @@ static void StreamStatusEventFunc(NetworkMsgPacket Packet)
             SetTimer(5000, CommunicateTimer, CommunicateOuttime, &CommDev);
             TimerDestroy(MonitorTimer);
 
-            // TalkLightControl(1);    //hare
-            GpioLevelSet(TALKING_LIGHT_CONTROL_GPIO, GPIO_LEVEL_HIGH);
+            TalkLightControl(1);    // 通话灯走74HC595 bit7；GPIO34是门锁不能动
+            // GpioLevelSet(TALKING_LIGHT_CONTROL_GPIO, GPIO_LEVEL_HIGH);  // 屏蔽：GPIO34是门锁，不是通话灯
             InfraredLightControl(DarkModeStatus());
         }
     }
@@ -181,8 +181,8 @@ static void OutdoorTalkEventFunc(NetworkMsgPacket Packet)
         TimerDestroy(MonitorTimer);
         InfraredLightControl(DarkModeStatus());
 
-        // TalkLightControl(1);   // hare
-        GpioLevelSet(TALKING_LIGHT_CONTROL_GPIO, GPIO_LEVEL_HIGH);
+        TalkLightControl(1);   // 通话灯走74HC595 bit7；GPIO34是门锁不能动
+        // GpioLevelSet(TALKING_LIGHT_CONTROL_GPIO, GPIO_LEVEL_HIGH);  // 屏蔽：GPIO34是门锁，不是通话灯
         // CallKeyLightCtrl(CommFloor);  hare
     }
 }
@@ -276,14 +276,14 @@ static void MotionSensitivityEventFunc(NetworkMsgPacket Packet)
 }
 
 /**
- * @description: 通话灯引脚初始化
+ * @description: 通话灯引脚初始化（已屏蔽：GPIO34是门锁DOOR_OPEN，不是通话灯）
  * @return {*}
  */
-void LockGpioInit(void)
+void TalkLightGpioInit(void)  // 改名避免与 Unlock.c 的 LockGpioInit() 冲突
 {
-        if (GpioOpen(TALKING_LIGHT_CONTROL_GPIO, GPIO_DIR_LOW, false))
-        {
-        }
+        // if (GpioOpen(TALKING_LIGHT_CONTROL_GPIO, GPIO_DIR_LOW, false))
+        // {
+        // }
 }
 
 NetworkEventHandle HandleFuncGroup[TotalEvent] = {EventList(DefineEventFunc)};

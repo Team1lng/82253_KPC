@@ -26,7 +26,7 @@ int WiegandDevWrite(char *Data, int Size)
 
     if (access(WIEGAND_DEVICE_PAYH, F_OK) != 0)
     {
-        printf("%s not exit\n", WIEGAND_DEVICE_PAYH);
+        // printf("%s not exit\n", WIEGAND_DEVICE_PAYH);
         return 0;
     }
 
@@ -70,7 +70,7 @@ int _74hc595dDevWrite(char Data)
     static int Fd = -1;
     if (access(_74HC595D_DEVICE_PAYH, F_OK) != 0)
     {
-        printf("%s not exit\n", _74HC595D_DEVICE_PAYH);
+        // printf("%s not exit\n", _74HC595D_DEVICE_PAYH);
         return 0;
     }
 

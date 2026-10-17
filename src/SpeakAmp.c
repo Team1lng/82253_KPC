@@ -9,8 +9,8 @@
 #include "PeripheralControl.h"
 #include "SpeakAmp.h"
 #include <stdio.h>
-#define GPIO_CONTRLL_AMP
-#define APEAK_AMP_GPIO 32  //69
+#define GPIO_CONTRLL_AMP  // 功放使能用GPIO控制
+#define APEAK_AMP_GPIO 69  // SP_EN 功放使能（原理图 JIAO 12 → GPIO69）；原来是32(锁脚)，改错了所以完全无声
 static int AmpStatus = -1; 
 /**
  * @description: 初始化功放控制脚

@@ -400,7 +400,7 @@ int UnlockVoiceSwitch(Keyboard *KeyAttr, struct ActionRoute *CurrRoute)
         return 0;
 
     UserConfigGet()->UnlockVoiceEn = Atoi(KeyAttr->Buff[2]);
-    UserCardSave();
+    UserConfigSave();   // 修正：改的是UserConfig，应存UserConfig；原来误存成UserCardSave()导致重启后开关丢失
     VoiceRingPlay(Bi2, VoiceDefVol);
     return 1;
 }
@@ -751,12 +751,13 @@ int AddLockMasterCard(Keyboard *KeyAttr, struct ActionRoute *CurrRoute)
     SetTimer(30 * 1000, AddMasterCardTimer, CloseAddMasterCardMode, &UserCardGet()->MasterCard[LockMasterCard].Card[AddMasterCard]);
     PushRouteStack(KeyAddLockMasterCard);
     VoiceRingPlay(Bi2, VoiceDefVol);
+    CardLightFlashes();   // 进入添加母卡模式：刷卡灯闪烁，直到退出
     return 1;
 }
 
 int ExitAddLockMasterCard(Keyboard *KeyAttr, struct ActionRoute *CurrRoute)
 {
-    TimerDestroy(AddCardTimer);
+    TimerDestroy(AddMasterCardTimer);   // 修正：母卡模式用的是AddMasterCardTimer，原来误写成AddCardTimer导致退出后灯不停
     return 1;
 }
 
@@ -769,13 +770,14 @@ int AddGateMasterCard(Keyboard *KeyAttr, struct ActionRoute *CurrRoute)
     SetTimer(30 * 1000, AddMasterCardTimer, CloseAddMasterCardMode, &UserCardGet()->MasterCard[GateMasterCard].Card[AddMasterCard]);
     PushRouteStack(KeyAddGateMasterCard);
     VoiceRingPlay(Bi2, VoiceDefVol);
+    CardLightFlashes();   // 进入添加母卡模式：刷卡灯闪烁，直到退出
 
     return 1;
 }
 
 int ExitAddGateMasterCard(Keyboard *KeyAttr, struct ActionRoute *CurrRoute)
 {
-    TimerDestroy(DelCardTimer);
+    TimerDestroy(AddMasterCardTimer);   // 修正：母卡模式用的是AddMasterCardTimer，原来误写成DelCardTimer导致退出后灯不停
     return 1;
 }
 

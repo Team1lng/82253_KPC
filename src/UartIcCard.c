@@ -18,7 +18,7 @@
 #include "Timer.h"
 #include <string.h>
 
-#define TTYSAK_DEVICE   "ttySAK1"   //ttySAK2     new:ttySAK1
+#define TTYSAK_DEVICE   "ttySAK2"   //刷卡模块接在GPIO55=UART2_RXD(原理图连接器30脚)，故用ttySAK2
 int UartIcCardCheck(const char *Data)
 {
     if ((Data[0] ^ Data[1] ^ Data[2] ^ Data[3]) == Data[4])

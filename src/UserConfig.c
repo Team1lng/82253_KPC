@@ -18,7 +18,7 @@
 #include <../common/watch_dog/ak_drv_wdt.h>
 #include <ak_common.h>
 
-#define DEFAULT_UNLOCK_TIME 10
+#define DEFAULT_UNLOCK_TIME 5
 
 static UserConfig UserConf;
 static UserConfig UserConfDefault = {
@@ -30,7 +30,7 @@ static UserConfig UserConfDefault = {
     .UngateTime = DEFAULT_UNLOCK_TIME,
     .UnlockTime = DEFAULT_UNLOCK_TIME,
     .NumKeyLightTime = 0,
-    .Language = Polish,
+    .Language = Hebrew,
     .LockWay = CardOrCodeWay,
     .SafeMode = CloseSafe,
     .CodeInfo[0 ... (PUBLIC_CODE_GROUP-1)] = {0},
